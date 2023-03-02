@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.caninechain.enderboom.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EndermanEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

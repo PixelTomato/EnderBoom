@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "enderboom",
+  "version": "${version}",
+  "name": "EnderBoom",
+  "description": "Endermen take damage from explosions again.",
+  "authors": [
+    "PixelTomato"
+  ],
+  "contact": {
+    "repo": "https://github.com/PixelTomato/EnderBoom"
+  },
+  "license": "MIT",
+  "icon": "assets/enderboom/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.caninechain.enderboom.client.EnderBoomClient"
+    ],
+    "main": [
+      "me.caninechain.enderboom.EnderBoom"
+    ]
+  },
+  "mixins": [
+    "enderboom.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "minecraft": "1.19.3"
+  }
+}
